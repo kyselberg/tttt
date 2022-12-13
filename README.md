@@ -8,4 +8,4 @@ so you won't hurry and plan everything in order.
 > > Solomon, Anciant Israeli King
 
 
-Just [go in this adventure](https://fff.com) to your ordered life.
+Just [go in this adventure](https://tttt-inky.vercel.app) to your ordered life.
