@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import "inputField";
+@import "trackerList";
+
+* {
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+#root {
+  width: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 560px;
+  margin: 8rem auto 0;
+  @media (max-width: 600px) {
+    width: 100%;
+    margin: 5rem auto 0;
+  }
+}
+
+@media (max-width: 600px) {
+  #root {
+    width: 100%;
+  }
+}

@@ -1,0 +1,36 @@
+.input-group {
+  width: 104%;
+  margin-top: 3rem;
+  border-radius: 25px;
+  border: 1px solid #8d8d8d;
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  position: relative;
+  left: -3%;
+
+  input {
+    border-radius: 25px;
+    flex-grow: 1;
+    border: none;
+    padding: 10px 0 10px 15px;
+    font-size: 1.3rem;
+  }
+
+  button {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #3faf6c;
+    cursor: pointer;
+    transition: background-color .3s;
+
+    &:hover {
+      background-color: #2f9459;
+    }
+  }
+}
